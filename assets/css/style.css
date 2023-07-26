@@ -1,0 +1,30 @@
+nav ul {
+    list-style: none;
+    padding-left: 0px;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.mobileNav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+@media all and (max-width: 468px) {
+    nav ul {
+        display: none;
+        height: 0px;
+    }
+    nav ul li {
+        display: block;
+        margin-right: 0px;
+    }
+}
+
+nav ul.active {
+    display: none;
+    height: 0px;
+}

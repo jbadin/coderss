@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^feeds$ /controllers/feedsController.php [L]
